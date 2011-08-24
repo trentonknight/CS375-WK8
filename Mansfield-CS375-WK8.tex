@@ -40,7 +40,7 @@ Returning to state one the left hand side of the string can be evaluated for tra
 \end{enumerate}
 \clearpage
 \section{}
-
+\subsection{}
 \begin{figure}
 \begin{center}
 \caption{ODDPALINDROME}
@@ -82,6 +82,83 @@ Returning to state one the left hand side of the string can be evaluated for tra
 \end{tikzpicture} 
 \end{center}
 \end{figure}
+\clearpage
+\subsection{}
+\subsubsection{abbba~Odd~string}
+\[
+  \overset{1~START}{\b{a}bbba} \rightarrow
+   \overset{2}{\b{b}bba}\rightarrow
+   \overset{2}{b\b{b}ba}\rightarrow
+   \overset{2}{bb\b{b}a}\rightarrow
+   \overset{2}{bbb\b{a}}\rightarrow
+  \overset{2}{bbba\b{$\Delta$}}\rightarrow
+  \overset{3}{bbb\b{a}}\rightarrow
+   \overset{4}{bb\b{b}}\rightarrow
+   \overset{4}{b\b{b}b}\rightarrow
+  \overset{4}{\b{b}bb}
+\]
 
+\[
+\overset{4}{\b{$\Delta$}bbb}\rightarrow
+\overset{1}{\b{b}bb}\rightarrow
+\overset{5}{\b{b}b}\rightarrow
+ \overset{5}{b\b{b}}\rightarrow
+\overset{5}{bb\b{$\Delta$}}\rightarrow
+\overset{6}{b\b{b}}\rightarrow
+\overset{7}{\b{b}}\rightarrow
+\overset{7}{\b{$\Delta$}b}\rightarrow
+\overset{1}{\b{b}}\rightarrow
+\overset{7}{\b{$\Delta$}}\rightarrow
+\overset{6}{\b{$\Delta$}}\rightarrow
+\overset{8~HALT}{\b{$\Delta$}}
+\]
+\subsubsection{bbaaabb~Odd~string}
+\[
+\overset{1~START}{\b{b}baaabb}\rightarrow
+\overset{5}{\b{b}aaabb}\rightarrow
+\overset{5}{b\b{a}aabb}\rightarrow
+\overset{5}{ba\b{a}abb}\rightarrow
+\overset{5}{baa\b{a}bb}\rightarrow
+\overset{5}{baaa\b{b}b}\rightarrow
+\overset{5}{baaab\b{b}}\rightarrow
+\overset{5}{baaabb\b{$\Delta$} }\]
 
+\[
+\overset{6}{baaab\b{b}}\rightarrow
+\overset{7}{baaa\b{b}}\rightarrow
+\overset{7}{baa\b{a}b}\rightarrow
+\overset{7}{ba\b{a}ab}\rightarrow
+\overset{7}{b\b{a}aab}\rightarrow
+\overset{7}{\b{b}aaab}\rightarrow
+\overset{7}{\b{$\Delta$}baaab}\rightarrow
+\overset{1}{\b{b}aaab}\rightarrow
+\overset{1}{\b{a}aab}
+\]
+
+\[
+\overset{5}{\b{a}aab}\rightarrow
+\overset{5}{a\b{a}ab}\rightarrow
+\overset{5}{aa\b{a}b}\rightarrow
+\overset{5}{aaa\b{b}}\rightarrow
+\overset{5}{aaab\b{$\Delta$}}\rightarrow
+\overset{6}{aaa\b{b}}\rightarrow
+\overset{7}{aa\b{a}}\rightarrow
+\overset{7}{a\b{a}a}\rightarrow
+\overset{7}{\b{a}aa}\rightarrow
+\overset{7}{\b{$\Delta$}aaa}\rightarrow
+\overset{1}{\b{a}aa}
+\]
+
+\[
+\overset{2}{\b{a}a}\rightarrow
+\overset{2}{a\b{a}}\rightarrow
+\overset{2}{aa\b{$\Delta$}}\rightarrow
+\overset{3}{a\b{a}}\rightarrow
+\overset{4}{\b{a}}\rightarrow
+\overset{4}{\b{$\Delta$}a}\rightarrow
+\overset{1}{\b{a}}\rightarrow
+\overset{2}{\b{$\Delta$}}\rightarrow
+\overset{3}{\b{$\Delta$}}\rightarrow
+\overset{8~HALT}{\b{$\Delta$}}
+\]
 \end{document}
