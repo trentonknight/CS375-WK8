@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 AUG 2011 11:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 AUG 2011 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,10 +853,10 @@ Overfull \hbox (9.34047pt too wide) in paragraph at lines 82--83
 
 ] [4] (./Mansfield-CS375-WK8.aux) ) 
 Here is how much of TeX's memory you used:
- 16351 strings out of 493633
- 328764 string characters out of 3143378
- 403538 words of memory out of 3000000
- 19280 multiletter control sequences out of 15000+200000
+ 16357 strings out of 493633
+ 328836 string characters out of 3143378
+ 404538 words of memory out of 3000000
+ 19286 multiletter control sequences out of 15000+200000
  50467 words of font info for 48 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  56i,10n,73p,654b,997s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -865,7 +865,7 @@ c/dvips/iwona/rm-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/
 iwona/ec-iwona.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwon
 a/iwonal.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwon
 am.pfb>
-Output written on Mansfield-CS375-WK8.pdf (4 pages, 83616 bytes).
+Output written on Mansfield-CS375-WK8.pdf (4 pages, 83713 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

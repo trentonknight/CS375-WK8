@@ -43,7 +43,7 @@ Returning to state one the left hand side of the string can be evaluated for tra
 
 \begin{figure}
 \begin{center}
-\caption{Q01: FA}
+\caption{ODDPALINDROME}
 \begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=4.8cm, semithick]
 \tikzstyle{every state}=[draw=black,text=black, ball color=red]
 \node[state,initial](1){1};
@@ -71,12 +71,12 @@ Returning to state one the left hand side of the string can be evaluated for tra
 \path(7) edge[loop right]node{(a,a,L)}(7);
               
  %draw
- \draw [->] ($(1.east)$)  -++(0,3.4) -++(2.4,3.4);   
- \draw [->] ($(1.east)$)  -++(0,-3.4) -++(2.4,-3.4);  
- \draw [->] ($(2.east)$)  -l ($(3.west)$); 
- \draw [->] ($(5.east)$)  -l ($(6.west)$); 
-  \draw [->] ($(3.east)$)  -l ($(4.west)$); 
- \draw [->] ($(6.east)$)  -l ($(7.west)$); 
+ \draw [->] ($(1.east)$)  -++(0,3.4) node[below right]{(a, $\Delta$, R)} -++(2.4,3.4);   
+ \draw [->] ($(1.east)$)  -++(0,-3.4) node[above right]{(a, $\Delta$, R)} -++(2.4,-3.4);  
+ \draw [->] ($(2.east)$)  -l node[below](5a){($\Delta$,$\Delta$,L)} ($(3.west)$); 
+ \draw [->] ($(5.east)$)   -l node[above](5a){($\Delta$,$\Delta$,L)} ($(6.west)$); 
+  \draw [->] ($(3.east)$)  -l node[below](5a){(a, $\Delta$,L)}  ($(4.west)$); 
+ \draw [->] ($(6.east)$)  -l node[above](5a){(b, $\Delta$,L)} ($(7.west)$); 
   \draw [->] ($(3.south)$)  -l ($(8.north)$); 
  \draw [->] ($(6.north)$)  -l ($(8.south)$); 
 \end{tikzpicture} 
