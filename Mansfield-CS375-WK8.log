@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 AUG 2011 16:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 AUG 2011 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1812,7 +1812,197 @@ LaTeX Warning: Command \b invalid in math mode on input line 223.
 
 LaTeX Warning: Command \b invalid in math mode on input line 223.
 
-[3] [4] [5] (./Mansfield-CS375-WK8.aux) ) 
+[3] [4]
+
+LaTeX Warning: Command \b invalid in math mode on input line 259.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 259.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 259.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 260.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 260.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 260.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 261.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 261.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 261.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 262.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 262.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 262.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 263.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 263.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 263.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 268.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 268.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 268.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 270.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 270.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 270.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 271.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 271.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 271.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 278.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 278.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 278.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 279.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 279.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 279.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 280.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 280.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 280.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 285.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 285.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 285.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 286.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 286.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 286.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 287.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 287.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 287.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 288.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 288.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 288.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 289.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 289.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 289.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 291.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 291.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 291.
+
+[5] [6] (./Mansfield-CS375-WK8.aux) ) 
 Here is how much of TeX's memory you used:
  16454 strings out of 493633
  330273 string characters out of 3143378
@@ -1821,17 +2011,17 @@ Here is how much of TeX's memory you used:
  53597 words of font info for 49 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  56i,10n,73p,654b,997s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fo
-nts/enc/dvips/iwona/sy-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/
-dvips/iwona/mi-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/iw
-ona/rm-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/iwona/ec-i
-wona.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonal.p
-fb></usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonali.pfb></
-usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonam.pfb>
-Output written on Mansfield-CS375-WK8.pdf (5 pages, 104396 bytes).
+{/usr/local/texlive/2011/texmf-dist/fonts/
+enc/dvips/iwona/sy-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvip
+s/iwona/mi-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/iwona/
+rm-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/iwona/ec-iwona
+.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonal.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonali.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonam.pfb>
+Output written on Mansfield-CS375-WK8.pdf (6 pages, 106199 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

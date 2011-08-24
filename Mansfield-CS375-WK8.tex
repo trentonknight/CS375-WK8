@@ -247,12 +247,47 @@ MOREA:\\
 \path(5) edge[bend left] node{(a, $\Delta$, R)}(3);
 \path(3) edge [bend left]node{(b, $\Delta$, R)}(5);
 \path(4) edge [loop right] node{(a, $\Delta$, R)}(4);
-\path(4) edge[bend left] node{(b, $\Delta$, L)}(3);
+\path(4) edge[bend left] node{(b, $\Delta$, R)}(3);
 \path(3) edge [bend right]node{($\Delta$, $\Delta$, R)}(6);
 \path(4) edge node{($\Delta$, $\Delta$, R)}(6);
 \end{tikzpicture} 
 \end{center}
 \end{figure}
 
-\subsubsection{}
+\subsubsection{aab~MOREA}
+\[
+\overset{1~START}{\b{a}ab}\rightarrow
+\overset{3}{\b{a}b}\rightarrow
+\overset{4}{\b{b}}\rightarrow
+\overset{3}{\b{$\Delta$}}\rightarrow
+\overset{6~HALT}{\b{$\Delta$}}
+\]
+
+\subsubsection{aaba~MOREA}
+\[
+\overset{1~START}{\b{a}aba}\rightarrow
+\overset{3}{\b{a}ba}\rightarrow
+\overset{4}{\b{b}a}\rightarrow
+\overset{3}{\b{a}}\rightarrow
+\overset{4}{\b{$\Delta$}}\rightarrow
+\overset{6~HALT}{\b{$\Delta$}}
+\]
+
+\subsubsection{bba~MOREB}
+\[
+\overset{1~START}{\b{b}ba}\rightarrow
+\overset{2}{\b{b}a}\rightarrow
+\overset{CRASH}{\b{b}a}
+\]
+
+\subsubsection{aaabbbb~MOREB}
+\[
+\overset{1}{\b{a}aabbbb}\rightarrow
+\overset{3}{\b{a}abbbb}\rightarrow
+\overset{4}{\b{a}bbbb}\rightarrow
+\overset{4}{\b{b}bbb}\rightarrow
+\overset{3}{\b{b}bb}\rightarrow
+\overset{5}{\b{b}b}\rightarrow
+\overset{CRASH}{\b{b}b}
+\]
 \end{document}
