@@ -29,9 +29,37 @@ Start 1& 3 & 4 & 5 & 5 & 6\\
 &&&&&\\
 7&1& 2 &2&&\\
 \b{\#}b\# $\rightarrow$& \#\b{b}\# $\rightarrow$& \#\#\b{\#} $\rightarrow$&CRASH&&
-
 \end{tabular}
 
+\subsection{}
+\begin{tabular}{l l l l l l}
+Start 1& 2& 4& 4& 4&4\\
+\b{b}aaba$\rightarrow$ & \#\b{a}aba $\rightarrow$& \#a\b{a}ba $\rightarrow$& \#aa\b{b}a $\rightarrow$ & \#aab\b{a} $\rightarrow$ & \#aaba\b{$\Delta$}\\
+&&&&&\\%space
+5& 6 & 7& 7& 7& 1\\
+\#aab\b{a}$\rightarrow$&\#aa\b{b}\# & \#a\b{a}b\# $\rightarrow$ & \#\b{a}ab\# $\rightarrow$ & \b{\#}aab\# $\rightarrow$& \#\b{a}ab\# \\
+&&&&&\\%space
+3&4&4&5& 6& 7\\
+\#\#\b{a}b\# $\rightarrow$ & \#\#a\b{b}\# $\rightarrow$ & \#\#ab\b{\#} $\rightarrow$ & \#\#a\b{b}\# $\rightarrow$ & \#\#\b{a}\#\# $\rightarrow$ & \#\b{\#}a\#\#\\
+&&&&&\\%space
+1& 3 & HALT &&&\\
+\#\#\b{a}\#\# $\rightarrow$ & \#\#\#\b{#}\# $\rightarrow$ & \#\#\#\#\b{\#} &&&\\
+\end{tabular}
+\subsection{}
+\begin{tabular}{l l l l l l}
+Start 1& 3& 4 & 4 & 4 & 4\\
+\b{a}babb $\rightarrow$ & \#\b{b}abb $\rightarrow$ & \#b\b{a}bb $\rightarrow$ & \#ba\b{b}b $\rightarrow$ & \#bab\b{b} $\rightarrow$ & \#babb\b{$\Delta$}\\
+&&&&&\\
+5& 6 & 7 & 7 & 7 & 1\\
+\#bab\b{b} $\rightarrow$ & \#ba\b{b}\# $\rightarrow$ & \#b\b{a}b\# $\rightarrow$ & \#\b{b}ab\# $\rightarrow$ & \b{\#}bab\# $\rightarrow$ & \#\b{b}ab\#\\
+&&&&&\\
+2 &4& 4 & 5 & 6 & 7\\
+\#\#\b{a}b\# $\rightarrow$ & \#\#a\b{b}\# $\rightarrow$ & \#\#ab\b{#} $\rightarrow$ & \#\#a\b{b}\# $\rightarrow$ & \#\#\b{a}\#\# $\rightarrow$ & \#\b{\#}a\#\# $\rightarrow$\\
+&&&&&\\
+1& 3 & HALT &&&\\
+\#\#\b{a}\#\# $\rightarrow$ & \#\#\#\b{\#}\# $\rightarrow$ & \#\#\#\#\b{\#} &&&\\
+
+\end{tabular}
 
 
 

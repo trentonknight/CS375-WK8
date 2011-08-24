@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 AUG 2011 20:51
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 AUG 2011 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,6 +635,40 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> \relax ##
+                    \crcr \hidewidth \ltx@sh@ft {-3ex}\vbox to.2ex{\hbox {\c...
+l.46 \#\#\b{a}\#\# $\rightarrow$ & \#\#\#\b{#}
+                                              \# $\rightarrow$ & \#\#\#\#\b{...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (0.62007pt too wide) in paragraph at lines 35--48
+[] 
+ []
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> \relax ##
+                    \crcr \hidewidth \ltx@sh@ft {-3ex}\vbox to.2ex{\hbox {\c...
+l.57 ...& \#\#a\b{b}\# $\rightarrow$ & \#\#ab\b{#}
+                                                   $\rightarrow$ & \#\#a\b{b...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (16.72008pt too wide) in paragraph at lines 49--63
+[] 
+ []
+
+
+Overfull \vbox (116.24771pt too high) has occurred while \output is active []
+
+
 [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -642,7 +676,7 @@ e
 Here is how much of TeX's memory you used:
  12946 strings out of 493633
  276528 string characters out of 3143378
- 340197 words of memory out of 3000000
+ 351197 words of memory out of 3000000
  15950 multiletter control sequences out of 15000+200000
  46933 words of font info for 45 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -653,7 +687,7 @@ sy-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/iwona/ec-iwona
 .enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonal.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonali.pfb></usr/
 local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonam.pfb>
-Output written on Mansfield-CS375-WK8.pdf (1 page, 45102 bytes).
+Output written on Mansfield-CS375-WK8.pdf (1 page, 46464 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
