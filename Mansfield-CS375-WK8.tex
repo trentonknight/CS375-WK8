@@ -70,9 +70,34 @@ the middle letter.
 \item[Step 3] Reaching state 4 the string is read to the right up until either reaching a \# character or $\Delta$ at which point traversal to state 5 is achieved. During traversal the machine moves back one local to the previous character either a or b which allows it to continue on to state 6  replacing this character with a \# symbol and thus narrowing down this string once again. This is of course to add the \# symbol to the right hand side of the string. Between state 6 and back to 1 the tape head is moved to the far left.
 \item[Step 4] 
 Returning to state one the left hand side of the string can be evaluated for traversal to either 2 or 3. If the string has more than one remaining a or b it will simply replace the next to the last character with \# and loop again. If however the string is on its final character and it is an a the machine will traverse to 3 followed by a successful HALT. If the final character is a b it will traverse to 2 and crash.
-
 \end{enumerate}
-
+\clearpage
+\section{}
+\begin{figure}
+\begin{center}
+\caption{ODDPALINDROME}
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=4.8cm, semithick]
+\tikzstyle{every state}=[draw=black,text=black, ball color=red]
+\node[initial,state] (1) {1};
+\node[state][right of=1](2){2};
+\node[state][right of=2](3){3};
+\node[state][right of=3](4){4};
+\node[state,accepting][below of=4](8){8};
+\node[state][below of=2]{6};
+\node[state] [below of=1]{5};
+\node[state][below of=3]{7};
+\path (1)edge node{(a, $\Delta$, R)}(2);
+\path (2)edge node{($\Delta$, $\Delta$, L)}(3)
+              edge [loop above]node{(b, b, R)~(a, a, R)};  
+\path (3)edge node{(a, $\Delta$, L)}(4);  
+\path (4)edge [loop below]node{(b, b, L)~(a, a, L)}
+              edge [bend right=89] node{($\Delta$, $\Delta$, R)}(1);
+\draw [->] ( $(1.south)$) -++(0,-4);
+\draw [->] ( $(3.south)$) -++(0,-2) -| ( $(8.north)$);
+ 
+\end{tikzpicture} 
+\end{center}
+\end{figure}
 
 
 
