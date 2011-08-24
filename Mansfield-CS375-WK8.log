@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 AUG 2011 20:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 AUG 2011 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -642,7 +642,7 @@ e
 Here is how much of TeX's memory you used:
  12946 strings out of 493633
  276528 string characters out of 3143378
- 337197 words of memory out of 3000000
+ 340197 words of memory out of 3000000
  15950 multiletter control sequences out of 15000+200000
  46933 words of font info for 45 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -653,7 +653,7 @@ sy-iwona.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/iwona/ec-iwona
 .enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonal.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonali.pfb></usr/
 local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonam.pfb>
-Output written on Mansfield-CS375-WK8.pdf (1 page, 44564 bytes).
+Output written on Mansfield-CS375-WK8.pdf (1 page, 45102 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
