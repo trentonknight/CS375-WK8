@@ -54,9 +54,21 @@ Returning to state one the left hand side of the string can be evaluated for tra
 \node[state][right of=5](6){6};
 \node[state][right of=6](7){7};
 \node[state]  at (7,-0.1) (8){8};
+\node at (8,7) (top) {($\Delta$,$\Delta$,R)};
+\node at (8,-7) (floor) {($\Delta$,$\Delta$,R)};
+\node at (8.3, 1) (mid-top) {($\Delta$,$\Delta$,R)};
+\node at (8.3, -1) (mid-floor) {($\Delta$,$\Delta$,R)};
  %paths
  \path (7) edge [bend left=100]node{}(1);
  \path (4) edge [bend right=100]node{}(1);
+\path(2) edge[loop below]node{(b,b,R)}(2);
+\path(2) edge[loop above]node{(a,a,R)}(2);
+\path(5) edge[loop below]node{(b,b,R)}(5);
+\path(5) edge[loop above]node{(a,a,R)}(5);
+\path(4) edge[loop below]node{(b,b,L)}(4);
+\path(4) edge[loop right]node{(a,a,L)}(4);
+\path(7) edge[loop above]node{(b,b,L)}(7);
+\path(7) edge[loop right]node{(a,a,L)}(7);
               
  %draw
  \draw [->] ($(1.east)$)  -++(0,3.4) -++(2.4,3.4);   
