@@ -95,7 +95,19 @@ Returning to state one the left hand side of the string can be evaluated for tra
 \node[state][right of=5](6){6};
 \node[state][right of=6](7){7};
 \node[state]  at (7,-0.1) (8){8};
-          
+ %paths
+ \path (7) edge [bend left=100]node{}(1);
+ \path (4) edge [bend right=100]node{}(1);
+              
+ %draw
+ \draw [->] ($(1.east)$)  -++(0,3.4) -++(2.4,3.4);   
+ \draw [->] ($(1.east)$)  -++(0,-3.4) -++(2.4,-3.4);  
+ \draw [->] ($(2.east)$)  -l ($(3.west)$); 
+ \draw [->] ($(5.east)$)  -l ($(6.west)$); 
+  \draw [->] ($(3.east)$)  -l ($(4.west)$); 
+ \draw [->] ($(6.east)$)  -l ($(7.west)$); 
+  \draw [->] ($(3.south)$)  -l ($(8.north)$); 
+ \draw [->] ($(6.north)$)  -l ($(8.south)$); 
 \end{tikzpicture} 
 \end{center}
 \end{figure}
