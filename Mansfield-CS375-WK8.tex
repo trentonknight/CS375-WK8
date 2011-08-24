@@ -3,6 +3,7 @@
 \usepackage[light,math]{iwona}
 \usepackage[latin1]{inputenc}
 \usepackage{amsmath}
+\usepackage{amsthm}
 \usepackage{ulem}
 \usepackage{mathtools}
 \usepackage{xspace}
@@ -38,7 +39,6 @@ the middle letter.
 \item[Step 4] 
 Returning to state one the left hand side of the string can be evaluated for traversal to either 2 or 3. If the string has more than one remaining a or b it will simply replace the next to the last character with \# and loop again. If however the string is on its final character and it is an a the machine will traverse to 3 followed by a successful HALT. If the final character is a b it will traverse to 2 and crash.
 \end{enumerate}
-\clearpage
 \section{}
 \subsection{}
 \begin{figure}
@@ -165,7 +165,7 @@ Returning to state one the left hand side of the string can be evaluated for tra
 \subsubsection{abba~Even~string}
 
 \[
-\overset{1}{\b{a}bba}\rightarrow
+\overset{1~START}{\b{a}bba}\rightarrow
 \overset{2}{\b{b}ba}\rightarrow
 \overset{2}{b\b{b}a}\rightarrow
 \overset{2}{bb\b{a}}\rightarrow
@@ -189,7 +189,7 @@ Returning to state one the left hand side of the string can be evaluated for tra
 \subsubsection{bbaabb~Even~string}
 
 \[
-\overset{1}{\b{b}baabb}\rightarrow
+\overset{1~START}{\b{b}baabb}\rightarrow
 \overset{5}{\b{b}aabb}\rightarrow
 \overset{5}{b\b{a}abb}\rightarrow
 \overset{5}{ba\b{a}bb}\rightarrow
@@ -225,4 +225,33 @@ Returning to state one the left hand side of the string can be evaluated for tra
 \overset{1}{\b{$\Delta$}}\rightarrow
 \overset{CRASH}{\b{$\Delta$}}
 \]
+\clearpage
+
+\subsection{}
+MOREA:\\
+= {all strings of a's  and b's  in which the total number of a's is greater than the total number of b's}\\  
+= {a aa aab aba baa aaab aaba...}
+\subsubsection{}
+\begin{figure}
+\begin{center}
+\caption{ODDPALINDROME}
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=4.8cm, semithick]
+\tikzstyle{every state}=[draw=black,text=black, ball color=purple]
+\node[state,initial](1){1};
+\node[state][above right of=1](2){2};
+\node[state][below right of=2](3){3};
+\node[state][below of=3](5){5};
+\node[state][above right of=3](4){4};
+\node[state,accepting][below right of=4](6){6};
+
+ %paths
+
+ 
+              
+ %draw
+ 
+ 
+\end{tikzpicture} 
+\end{center}
+\end{figure}
 \end{document}

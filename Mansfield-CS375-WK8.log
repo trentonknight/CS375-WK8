@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 AUG 2011 13:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  24 AUG 2011 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -140,11 +140,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks26
+)
 (/usr/local/texlive/2011/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box28
 \UL@hyphenbox=\box29
-\UL@skip=\skip46
-\UL@hook=\toks21
+\UL@skip=\skip49
+\UL@hook=\toks27
 \UL@height=\dimen112
 \UL@pe=\count101
 \UL@pixel=\dimen113
@@ -157,7 +169,7 @@ Package: mathtools 2011/02/12 v1.10 mathematical typesetting tools
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks28
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
@@ -165,19 +177,19 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count103
 \calc@Adimen=\dimen115
 \calc@Bdimen=\dimen116
-\calc@Askip=\skip47
-\calc@Bskip=\skip48
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count104
-\calc@Cskip=\skip49
+\calc@Cskip=\skip52
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 \g_MT_multlinerow_int=\count105
 \l_MT_multwidth_dim=\dimen117
-\origjot=\skip50
+\origjot=\skip53
 \l_MT_shortvdotswithinadjustabove_dim=\dimen118
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen119
 )
@@ -246,14 +258,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen132
 \Gm@layouthoffset=\dimen133
 \Gm@layoutvoffset=\dimen134
-\Gm@dimlist=\toks23
+\Gm@dimlist=\toks29
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks24
+\pgfutil@everybye=\toks30
 )
 (/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box31
@@ -297,12 +309,12 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 (/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 (/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks27
+\pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen137
 \pgf@y=\dimen138
@@ -367,9 +379,9 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@dimen=\dimen145
 \pgfmath@count=\count120
 \pgfmath@box=\box32
-\pgfmath@toks=\toks28
-\pgfmath@stack@operand=\toks29
-\pgfmath@stack@operation=\toks30
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
 (/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -513,8 +525,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen171
 \pgffor@skip=\dimen172
-\pgffor@stack=\toks31
-\pgffor@toks=\toks32
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
 (/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -696,18 +708,18 @@ File: tikzlibrarybackgrounds.code.tex 2010/02/08 v2.10 (rcs-revision 1.2)
 ) (./Mansfield-CS375-WK8.aux)
 \openout1 = `Mansfield-CS375-WK8.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -755,12 +767,12 @@ ABD: EveryShipout initializing macros
 \scratchbox=\box63
 \nofMPsegments=\count135
 \nofMParguments=\count136
-\everyMPshowfont=\toks33
+\everyMPshowfont=\toks39
 \MPscratchCnt=\count137
 \MPscratchDim=\dimen189
 \MPnumerator=\count138
 \makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks34
+\everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
 
@@ -805,25 +817,25 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Try loading font information for OT1+iwonalm on input line 
-21.
+22.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/iwona/ot1iwonalm.fd
 File: ot1iwonalm.fd 2005/10/05 v1.2 font definition file for OT1/iwonalm (MW)
 )
 LaTeX Font Info:    Try loading font information for OML+iwonal on input line 2
-1.
+2.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/iwona/omliwonal.fd
 File: omliwonal.fd 2008/07/22 v0.995 font definition file for OML/iwonal (MW)
 )
 LaTeX Font Info:    Try loading font information for OMS+iwonal on input line 2
-1.
+2.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/iwona/omsiwonal.fd
 File: omsiwonal.fd 2008/07/22 v0.995 font definition file for OMS/iwonal (MW)
 )
 LaTeX Font Info:    Try loading font information for OMX+iwonal on input line 2
-1.
+2.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/iwona/omxiwonal.fd
 File: omxiwonal.fd 2008/07/22 v0.995 font definition file for OMX/iwonal (MW)
@@ -831,7 +843,7 @@ File: omxiwonal.fd 2008/07/22 v0.995 font definition file for OMX/iwonal (MW)
 <Screen1.png, id=20, 757.83125pt x 643.40375pt>
 File: Screen1.png Graphic file (type png)
  <use Screen1.png>
-Package pdftex.def Info: Screen1.png used on input line 25.
+Package pdftex.def Info: Screen1.png used on input line 26.
 (pdftex.def)             Requested size: 378.9147pt x 321.70108pt.
  [1
 
@@ -840,18 +852,16 @@ n1.png>]
 <Screen2.png, id=27, 661.47125pt x 285.065pt>
 File: Screen2.png Graphic file (type png)
  <use Screen2.png>
-Package pdftex.def Info: Screen2.png used on input line 27.
+Package pdftex.def Info: Screen2.png used on input line 28.
 (pdftex.def)             Requested size: 330.73482pt x 142.53215pt.
- [2
 
- <./Screen2.png>]
 Overfull \hbox (9.34047pt too wide) in paragraph at lines 82--83
  [] 
  []
 
-[3
+[2
 
-] [4]
+ <./Screen2.png>] [3] [4]
 
 LaTeX Warning: Command \b invalid in math mode on input line 89.
 
@@ -1804,12 +1814,14 @@ LaTeX Warning: Command \b invalid in math mode on input line 226.
 
 [5
 
+] [6
+
 ] (./Mansfield-CS375-WK8.aux) ) 
 Here is how much of TeX's memory you used:
- 16363 strings out of 493633
- 328916 string characters out of 3143378
- 419538 words of memory out of 3000000
- 19292 multiletter control sequences out of 15000+200000
+ 16439 strings out of 493633
+ 329974 string characters out of 3143378
+ 422443 words of memory out of 3000000
+ 19364 multiletter control sequences out of 15000+200000
  56727 words of font info for 50 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  56i,10n,73p,654b,997s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1820,10 +1832,10 @@ na.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}<
 /usr/local/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonal.pfb></usr/l
 ocal/texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonali.pfb></usr/local/
 texlive/2011/texmf-dist/fonts/type1/nowacki/iwona/iwonam.pfb>
-Output written on Mansfield-CS375-WK8.pdf (5 pages, 101469 bytes).
+Output written on Mansfield-CS375-WK8.pdf (6 pages, 103346 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
